@@ -1,0 +1,11 @@
+.spotifyContent {
+  display: flex;
+}
+
+.sideBar {
+  width: 22%;
+}
+
+.home {
+  width: 100%;
+}

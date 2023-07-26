@@ -1,0 +1,115 @@
+.player {
+  padding: 6px;
+  display: flex;
+  width: 100%;
+}
+
+.playerLeft {
+  display: flex;
+  padding-left: 11px;
+  width: 28%;
+}
+
+.songIcon {
+  border-radius: 4px;
+  width: 56px;
+}
+
+.songName {
+  padding-left: 16px;
+  line-height: 20px;
+  padding-top: 8px;
+}
+
+.song {
+  font-size: 13px;
+  font-weight: 700px;
+}
+
+.artist {
+  font-size: 11px;
+  color: #aaaaaa;
+}
+
+.Icons {
+  gap: 16px;
+  display: flex;
+  padding-left: 18px;
+  align-items: center;
+}
+
+.likeIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.pictureInPictureIcon {
+  width: 15px;
+  height: 12px;
+}
+
+.playerCenter {
+  width: 45%;
+}
+
+.songPlayer {
+  gap: 28px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 14px;
+}
+
+.playerIcons {
+  width: 16px;
+  height: 16px;
+}
+
+.musicPlayer {
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 35px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 38px;
+}
+
+.songBar {
+  border: solid 2px;
+  width: 530px;
+  display: flex;
+  border-radius: 6px;
+  color: #565656;
+}
+
+.playerTime {
+  font-size: 12px;
+  color: #aaaaaa;
+}
+
+.playerRight {
+  width: 27%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-left: 110px;
+}
+
+.volumeBar {
+  border-radius: 6px;
+  border: solid 2px;
+  width: 90px;
+}
+
+.playerRightIcons {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,87 @@
+.sideBarLibrary {
+  padding: 0px 9px;
+  display: flex;
+}
+
+.sideBarContent {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 9px 12px;
+  width: 100%;
+}
+.yourLibrary {
+  display: flex;
+  padding: 11px 12px;
+  align-items: center;
+  gap: 20px;
+}
+.sideBarIcon {
+  width: 16px;
+}
+
+.SideBarYourLibrary {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.playlistCreateButton {
+  display: flex;
+  padding-left: 70px;
+  gap: 20px;
+}
+
+.chipList {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 12px 0px 0px;
+  overflow: auto;
+}
+
+.chipList::-webkit-scrollbar {
+  width: 0;
+}
+
+.rightArrowIcon {
+  right: 18px;
+  height: 24px;
+  top: 4px;
+  position: absolute;
+}
+
+.searchInLibrary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchInLibrary img {
+  width: 20px;
+  margin-left: 6px;
+}
+
+.dropDown {
+  padding-right: 12px;
+}
+
+.artistCard {
+  padding: 8px 0px 12px;
+}
+
+.artistData {
+  overflow: auto;
+  height: 374px;
+}
+
+.artistData::-webkit-scrollbar {
+  width: 14px;
+}
+
+.artistData::-webkit-scrollbar-track {
+  background-color: #121212;
+}
+
+.artistData::-webkit-scrollbar-thumb {
+  background-color: #525252;
+}

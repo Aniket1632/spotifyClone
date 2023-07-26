@@ -1,0 +1,33 @@
+.sideBar {
+  padding: 8px 9px;
+  display: flex;
+}
+
+.sideBarContent {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 9px 12px;
+  width: 100%;
+}
+
+.sideBarIcons {
+  width: 24px;
+}
+
+.sideBarHomeAndSearch {
+  font-size: 16px;
+}
+
+.home {
+  display: flex;
+  padding: 11px 12px;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 20px;
+}

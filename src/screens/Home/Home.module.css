@@ -1,0 +1,96 @@
+.home {
+  padding: 9px 0px;
+}
+
+.homeContent {
+  background-image: linear-gradient(#513341, #121212 43%);
+  width: 100%;
+  border-radius: 8px;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px;
+  align-items: center;
+}
+
+.headerLeft {
+  gap: 10px;
+  display: flex;
+  padding-left: 8px;
+}
+
+.lefttArrowIcon {
+  background-color: #121212;
+  width: 30px;
+  border-radius: 16px;
+}
+
+.rightArrowIcon {
+  background-color: #121212;
+  width: 30px;
+  border-radius: 16px;
+}
+
+.headerRight {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.explore {
+  color: #121212;
+  background-color: #ffffff;
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 11px 20px;
+}
+
+.Install {
+  color: #ffffff;
+  background-color: #121212;
+  font-size: 14px;
+  border-radius: 30px;
+  font-weight: bold;
+  padding: 11px 20px;
+}
+
+.downloadIcon {
+  color: #ffffff;
+}
+
+.homeScrollBar {
+  overflow: auto;
+  height: 584px;
+}
+
+.homeScrollBar::-webkit-scrollbar {
+  width: 14px;
+}
+
+.homeScrollBar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.homeScrollBar::-webkit-scrollbar-thumb {
+  background-color: #ffffff69;
+}
+
+.goodAfternoon {
+  font-weight: 600;
+  font-size: 32px;
+  padding-left: 24px;
+}
+
+.songData {
+  padding: 22px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.songCard {
+  width: 32%;
+}

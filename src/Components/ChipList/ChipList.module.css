@@ -1,0 +1,11 @@
+.chipList {
+  display: flex;
+  gap: 14px;
+}
+
+.rightArrowIcon {
+  right: 18px;
+  height: 24px;
+  top: 10px;
+  position: absolute;
+}

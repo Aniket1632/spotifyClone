@@ -1,0 +1,27 @@
+.playList {
+  margin-top: 26px;
+  padding-bottom: 30px;
+  width: 98%;
+  padding-left: 14px;
+}
+
+.playListText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.singerData {
+  display: flex;
+  justify-content: space-around;
+}
+
+.singerCard {
+  width: 18%;
+}
